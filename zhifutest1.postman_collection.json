@@ -1948,7 +1948,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{LT5}}\",\n\t\"jmOrderNo\":\"\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"privateKey\":\"{{siyao11}}\"\n}"
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"cLT5\",\n\t\"jmOrderNo\":\"\",\n\t\"dateTime\":\"20191112162000\",\n\t\"privateKey\":\"{{siyao11}}\"\n}"
 						},
 						"url": "{{qianming}}"
 					},
@@ -1998,7 +1998,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{LT5}}\",\n\t\"jmOrderNo\":\"\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"sign\":\"{{sign1}}\"\n}"
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"cLT5\",\n\t\"jmOrderNo\":\"\",\n\t\"dateTime\":\"20191112162000\",\n\t\"sign\":\"{{sign1}}\"\n}"
 						},
 						"url": "{{yanqian}}querySingleOrder"
 					},
