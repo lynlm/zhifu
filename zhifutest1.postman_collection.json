@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "cbbbe072-74d7-4cee-9c86-b0517b9e066b",
+		"_postman_id": "748d0431-e86c-479f-9f8b-0631e68a271d",
 		"name": "zhifutest1",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
@@ -123,26 +123,26 @@
 									"script": {
 										"id": "2bdf491c-6b5a-4440-b6fc-c148fb43d4bd",
 										"exec": [
-											"pm.globals.set(\"LT1\"\t, \"bLT1\");\r",
-											"pm.globals.set(\"LT2\"\t, \"bLT2\");\r",
-											"pm.globals.set(\"LT3\"\t, \"bLT3\");\r",
-											"pm.globals.set(\"LT4\"\t, \"bLT4\");\r",
-											"pm.globals.set(\"LT5\"\t, \"bLT5\");\r",
-											"pm.globals.set(\"LT6\"\t, \"bLT6\");\r",
-											"pm.globals.set(\"LT7\"\t, \"bLT7\");\r",
-											"pm.globals.set(\"LT8\"\t, \"bLT8\");\r",
-											"pm.globals.set(\"LT9\"\t, \"bLT9\");\r",
-											"pm.globals.set(\"LT10\"\t, \"bLT10\");\r",
-											"pm.globals.set(\"LT11\"\t, \"bLT11\");\r",
-											"pm.globals.set(\"LT12\"\t, \"bLT12\");\r",
-											"pm.globals.set(\"LT13\"\t, \"bLT13\");\r",
-											"pm.globals.set(\"LT14\"\t, \"bLT14\");\r",
-											"pm.globals.set(\"LT15\"\t, \"bLT15\");\r",
-											"pm.globals.set(\"LT16\"\t, \"bLT16\");\r",
-											"pm.globals.set(\"LT17\"\t, \"bLT17\");\r",
-											"pm.globals.set(\"LT18\"\t, \"bLT18\");\r",
-											"pm.globals.set(\"LT19\"\t, \"bLT19\");\r",
-											"pm.globals.set(\"LT20\"\t, \"bLT20\");\r",
+											"pm.globals.set(\"LT1\"\t, \"dLT1\");\r",
+											"pm.globals.set(\"LT2\"\t, \"dLT2\");\r",
+											"pm.globals.set(\"LT3\"\t, \"dLT3\");\r",
+											"pm.globals.set(\"LT4\"\t, \"dLT4\");\r",
+											"pm.globals.set(\"LT5\"\t, \"dLT5\");\r",
+											"pm.globals.set(\"LT6\"\t, \"dLT6\");\r",
+											"pm.globals.set(\"LT7\"\t, \"dLT7\");\r",
+											"pm.globals.set(\"LT8\"\t, \"dLT8\");\r",
+											"pm.globals.set(\"LT9\"\t, \"dLT9\");\r",
+											"pm.globals.set(\"LT10\"\t, \"dLT10\");\r",
+											"pm.globals.set(\"LT11\"\t, \"dLT11\");\r",
+											"pm.globals.set(\"LT12\"\t, \"dLT12\");\r",
+											"pm.globals.set(\"LT13\"\t, \"dLT13\");\r",
+											"pm.globals.set(\"LT14\"\t, \"dLT14\");\r",
+											"pm.globals.set(\"LT15\"\t, \"dLT15\");\r",
+											"pm.globals.set(\"LT16\"\t, \"dLT16\");\r",
+											"pm.globals.set(\"LT17\"\t, \"dLT17\");\r",
+											"pm.globals.set(\"LT18\"\t, \"dLT18\");\r",
+											"pm.globals.set(\"LT19\"\t, \"dLT19\");\r",
+											"pm.globals.set(\"LT20\"\t, \"dLT20\");\r",
 											""
 										],
 										"type": "text/javascript"
@@ -210,10 +210,10 @@
 			"protocolProfileBehavior": {}
 		},
 		{
-			"name": "1）接口连通性验证",
+			"name": "1）接口连通性验证 Copy",
 			"item": [
 				{
-					"name": "1.1  微信免密签约 Copy",
+					"name": "1.1  微信免密签约",
 					"event": [
 						{
 							"listen": "test",
@@ -268,14 +268,14 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{now9}}1\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"notifyUrl\":\"http://shiyujun.cn\",\n\t\"returnUrl\":\"http://shiyujun.cn\",\n\t\"registerWayCode\":\"wechat\",\n\t\"userId\":\"{{userid1}}\",\n\t\"planId\":\"{{planid1}}\",\n\t\"accountName\":\"{{userid1}}\",\n\t\"appType\":\"ios\",\n\t\"scene\":\"app\",\n\t\"clientIp\":\"{{ip1}}\",\n\t\"appId\":\"{{appid1}}\",\n\t\"field1\":\"预留字段1\",\n\t\"field2\":\"预留字段2\",\n\t\"field3\":\"预留字段3\",\n\t\"privateKey\":\"{{siyao11}}\"\n}"
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{LT1}}\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"notifyUrl\":\"http://shiyujun.cn\",\n\t\"returnUrl\":\"http://shiyujun.cn\",\n\t\"registerWayCode\":\"wechat\",\n\t\"userId\":\"{{userid1}}\",\n\t\"planId\":\"{{planid1}}\",\n\t\"accountName\":\"{{userid1}}\",\n\t\"appType\":\"ios\",\n\t\"scene\":\"app\",\n\t\"clientIp\":\"{{ip1}}\",\n\t\"appId\":\"{{appid1}}\",\n\t\"field1\":\"预留字段1\",\n\t\"field2\":\"预留字段2\",\n\t\"field3\":\"预留字段3\",\n\t\"privateKey\":\"{{siyao11}}\"\n}"
 						},
 						"url": "{{qianming}}"
 					},
 					"response": []
 				},
 				{
-					"name": "1.1  微信免密签约--验签 Copy",
+					"name": "1.1  微信免密签约--验签",
 					"event": [
 						{
 							"listen": "test",
@@ -318,9 +318,1801 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{now9}}1\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"notifyUrl\":\"http://shiyujun.cn\",\n\t\"returnUrl\":\"http://shiyujun.cn\",\n\t\"registerWayCode\":\"wechat\",\n\t\"userId\":\"{{userid1}}\",\n\t\"planId\":\"{{planid1}}\",\n\t\"accountName\":\"{{userid1}}\",\n\t\"appType\":\"ios\",\n\t\"scene\":\"app\",\n\t\"clientIp\":\"{{ip1}}\",\n\t\"appId\":\"{{appid1}}\",\n\t\"field1\":\"预留字段1\",\n\t\"field2\":\"预留字段2\",\n\t\"field3\":\"预留字段3\",\n\t\"sign\":\"{{sign1}}\"\n}"
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{LT1}}\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"notifyUrl\":\"http://shiyujun.cn\",\n\t\"returnUrl\":\"http://shiyujun.cn\",\n\t\"registerWayCode\":\"wechat\",\n\t\"userId\":\"{{userid1}}\",\n\t\"planId\":\"{{planid1}}\",\n\t\"accountName\":\"{{userid1}}\",\n\t\"appType\":\"ios\",\n\t\"scene\":\"app\",\n\t\"clientIp\":\"{{ip1}}\",\n\t\"appId\":\"{{appid1}}\",\n\t\"field1\":\"预留字段1\",\n\t\"field2\":\"预留字段2\",\n\t\"field3\":\"预留字段3\",\n\t\"sign\":\"{{sign1}}\"\n}"
 						},
 						"url": "{{yanqian}}contract"
+					},
+					"response": []
+				},
+				{
+					"name": "1.2  微信免密支付",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "93fbd3f0-df55-447b-967c-85559219f9dd",
+								"exec": [
+									"// 首先判断 status 是否成功\r",
+									"if(responseCode.code === 200){ \r",
+									"    //将返回数据解析成json格式\r",
+									"    var jsonData = JSON.parse(responseBody);\r",
+									"    //定义环境变量sign1用做后续使用\r",
+									"    var sign1 = jsonData.date;\r",
+									"    pm.environment.set(\"sign1\", jsonData.date);\r",
+									"    \r",
+									"    // 判断测试是否通过\r",
+									"    if(jsonData.date !== ''){\r",
+									"        tests[\"响应数据判断true\"] = true;\r",
+									"        \r",
+									"    }\r",
+									"    else{\r",
+									"        tests[\"响应数据判断false\"] = false;\r",
+									"    }\r",
+									"    \r",
+									"}else{\r",
+									"    //响应值不是200时的输出\r",
+									"    tests[responseCode.code] = true;\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "953f4de3-d1e4-42af-9c50-070c2e1d158f",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{LT2}}\",\n\t\"notifyUrl\":\"http://shiyujun.cn\",\n\t\"transAmt\":\"0.01\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"subject\":\"免密支付测试subject\",\n\t\"body\":\"免密支付测试body\",\n\t\"transSeqNo\":\"\",\n\t\"storeId\":\"免密支付测试storeid\",\n\t\"cashierId\":\"免密支付测试cashierid\",\n\t\"userId\":\"{{userid1}}\",\n\t\"transCode\":\"wechat\",\n\t\"field1\":\"预留字段1\",\n\t\"field2\":\"预留字段2\",\n\t\"field3\":\"预留字段3\",\n\t\"privateKey\":\"{{siyao11}}\"\n}"
+						},
+						"url": "{{qianming}}"
+					},
+					"response": []
+				},
+				{
+					"name": "1.2  微信免密支付--验签",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "872e5cd1-d77e-4399-9884-a38716e657eb",
+								"exec": [
+									"// 设置前置变量，获取shanghuidpay11的商户号\r",
+									"var a1 = pm.environment.get(\"shanghuidpay11\"); \r",
+									"\r",
+									"// 首先判断 status 是否成功\r",
+									"if(responseCode.code === 200){ \r",
+									"    //将返回数据解析成json格式\r",
+									"    var jsonData = JSON.parse(responseBody);\r",
+									"    \r",
+									"    // 判断测试是否通过\r",
+									"    if(jsonData.respCode == \"300357\" && jsonData.respMsg == \"用户未签约该渠道,无法进行支付\" && jsonData.status == 1 && !jsonData.orderNo && !jsonData.jmOrderNo && jsonData.merNo == a1 && jsonData.sign != null){\r",
+									"        tests[\"响应数据判断true\"] = true;\r",
+									"    }\r",
+									"    else{\r",
+									"        tests[\"响应数据判断false\"] = false;\r",
+									"    }\r",
+									"    \r",
+									"}else{\r",
+									"    tests[responseCode.code] = true;\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{LT2}}\",\n\t\"notifyUrl\":\"http://shiyujun.cn\",\n\t\"transAmt\":\"0.01\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"subject\":\"免密支付测试subject\",\n\t\"body\":\"免密支付测试body\",\n\t\"transSeqNo\":\"\",\n\t\"storeId\":\"免密支付测试storeid\",\n\t\"cashierId\":\"免密支付测试cashierid\",\n\t\"userId\":\"{{userid1}}\",\n\t\"transCode\":\"wechat\",\n\t\"field1\":\"预留字段1\",\n\t\"field2\":\"预留字段2\",\n\t\"field3\":\"预留字段3\",\n\t\"sign\":\"{{sign1}}\"\n}"
+						},
+						"url": "{{yanqian}}noPwdPay"
+					},
+					"response": []
+				},
+				{
+					"name": "1.3  异地交易",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "93fbd3f0-df55-447b-967c-85559219f9dd",
+								"exec": [
+									"// 首先判断 status 是否成功\r",
+									"if(responseCode.code === 200){ \r",
+									"    //将返回数据解析成json格式\r",
+									"    var jsonData = JSON.parse(responseBody);\r",
+									"    //定义环境变量sign1用做后续使用\r",
+									"    var sign1 = jsonData.date;\r",
+									"    pm.environment.set(\"sign1\", jsonData.date);\r",
+									"    \r",
+									"    // 判断测试是否通过\r",
+									"    if(jsonData.date !== ''){\r",
+									"        tests[\"响应数据判断true\"] = true;\r",
+									"        \r",
+									"    }\r",
+									"    else{\r",
+									"        tests[\"响应数据判断false\"] = false;\r",
+									"    }\r",
+									"    \r",
+									"}else{\r",
+									"    //响应值不是200时的输出\r",
+									"    tests[responseCode.code] = true;\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "953f4de3-d1e4-42af-9c50-070c2e1d158f",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{LT3}}\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"subject\":\"免密支付测试subject\",\n\t\"body\":\"免密支付测试body\",\n\t\"transAmt\":\"0.01\",\n\t\"transSeqNo\":\"{{LT3}}\",\n\t\"notifyUrl\":\"http://shiyujun.cn\",\n\t\"userId\":\"{{userid1}}\",\n\t\"storeId\":\"\",\n\t\"cashierId\":\"\",\n\t\"field1\":\"预留字段1\",\n\t\"field2\":\"预留字段2\",\n\t\"field3\":\"预留字段3\",\n\t\"privateKey\":\"{{siyao11}}\"\n}"
+						},
+						"url": "{{qianming}}"
+					},
+					"response": []
+				},
+				{
+					"name": "1.3  异地交易--验签",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "872e5cd1-d77e-4399-9884-a38716e657eb",
+								"exec": [
+									"// 设置前置变量，获取shanghuidpay11的商户号",
+									"var a1 = pm.environment.get(\"shanghuidpay11\"); ",
+									"",
+									"// 首先判断 status 是否成功",
+									"if(responseCode.code === 200){ ",
+									"    //将返回数据解析成json格式",
+									"    var jsonData = JSON.parse(responseBody);",
+									"    ",
+									"    // 判断测试是否通过",
+									"    if(jsonData.respCode == \"000000\" && jsonData.respMsg == \"成功\" && jsonData.status == 0 && jsonData.orderNo != null && jsonData.jmOrderNo != null && jsonData.merNo == a1 && jsonData.sign != null){",
+									"        tests[\"响应数据判断true\"] = true;",
+									"    }",
+									"    else{",
+									"        tests[\"响应数据判断false\"] = false;",
+									"    }",
+									"    ",
+									"}else{",
+									"    tests[responseCode.code] = true;",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{LT3}}\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"subject\":\"免密支付测试subject\",\n\t\"body\":\"免密支付测试body\",\n\t\"transAmt\":\"0.01\",\n\t\"transSeqNo\":\"{{LT3}}\",\n\t\"notifyUrl\":\"http://shiyujun.cn\",\n\t\"userId\":\"{{userid1}}\",\n\t\"storeId\":\"\",\n\t\"cashierId\":\"\",\n\t\"field1\":\"预留字段1\",\n\t\"field2\":\"预留字段2\",\n\t\"field3\":\"预留字段3\",\n\t\"sign\":\"{{sign1}}\"\n}"
+						},
+						"url": "{{yanqian}}allopatryPay"
+					},
+					"response": []
+				},
+				{
+					"name": "1.4  微信小程序支付",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "93fbd3f0-df55-447b-967c-85559219f9dd",
+								"exec": [
+									"// 首先判断 status 是否成功\r",
+									"if(responseCode.code === 200){ \r",
+									"    //将返回数据解析成json格式\r",
+									"    var jsonData = JSON.parse(responseBody);\r",
+									"    //定义环境变量sign1用做后续使用\r",
+									"    var sign1 = jsonData.date;\r",
+									"    pm.environment.set(\"sign1\", jsonData.date);\r",
+									"    \r",
+									"    // 判断测试是否通过\r",
+									"    if(jsonData.date !== ''){\r",
+									"        tests[\"响应数据判断true\"] = true;\r",
+									"        \r",
+									"    }\r",
+									"    else{\r",
+									"        tests[\"响应数据判断false\"] = false;\r",
+									"    }\r",
+									"    \r",
+									"}else{\r",
+									"    //响应值不是200时的输出\r",
+									"    tests[responseCode.code] = true;\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "953f4de3-d1e4-42af-9c50-070c2e1d158f",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{LT4}}\",\n\t\"notifyUrl\":\"http://shiyujun.cn\",\n\t\"transAmt\":\"0.01\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"subject\":\"免密支付测试subject\",\n\t\"userId\":\"{{userid1}}\",\n\t\"userIp\":\"{{ip1}}\",\n\t\"body\":\"微信小程序支付测试body\",\n\t\"storeId\":\"微信小程序支付测试storeid\",\n\t\"cashierId\":\"微信小程序支付测试cashierid\",\n\t\"openid\":\"{{openidwx}}\",\n\t\"appid\":\"{{appid1}}\",\n\t\"field1\":\"预留字段1\",\n\t\"field2\":\"预留字段2\",\n\t\"field3\":\"预留字段3\",\n\t\"privateKey\":\"{{siyao11}}\"\n}"
+						},
+						"url": "{{qianming}}"
+					},
+					"response": []
+				},
+				{
+					"name": "1.4  微信小程序支付--验签",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "872e5cd1-d77e-4399-9884-a38716e657eb",
+								"exec": [
+									"// 设置前置变量，获取shanghuidpay11的商户号",
+									"var a1 = pm.environment.get(\"shanghuidpay11\"); ",
+									"",
+									"// 首先判断 status 是否成功",
+									"if(responseCode.code === 200){ ",
+									"    //将返回数据解析成json格式",
+									"    var jsonData = JSON.parse(responseBody);",
+									"    ",
+									"    // 判断测试是否通过",
+									"    if(jsonData.respCode == \"000000\" && jsonData.respMsg == \"成功\" && jsonData.merNo && jsonData.status == 1 && jsonData.data != null && jsonData.sign != null){",
+									"        tests[\"响应数据判断true\"] = true;",
+									"    }",
+									"    else{",
+									"        tests[\"响应数据判断false\"] = false;",
+									"    }",
+									"    ",
+									"}else{",
+									"    tests[responseCode.code] = true;",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{LT4}}\",\n\t\"notifyUrl\":\"http://shiyujun.cn\",\n\t\"transAmt\":\"0.01\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"subject\":\"免密支付测试subject\",\n\t\"userId\":\"{{userid1}}\",\n\t\"userIp\":\"{{ip1}}\",\n\t\"body\":\"微信小程序支付测试body\",\n\t\"storeId\":\"微信小程序支付测试storeid\",\n\t\"cashierId\":\"微信小程序支付测试cashierid\",\n\t\"openid\":\"{{openidwx}}\",\n\t\"appid\":\"{{appid1}}\",\n\t\"field1\":\"预留字段1\",\n\t\"field2\":\"预留字段2\",\n\t\"field3\":\"预留字段3\",\n\t\"sign\":\"{{sign1}}\"\n}"
+						},
+						"url": "{{yanqian}}appletPay"
+					},
+					"response": []
+				},
+				{
+					"name": "1.5  h5支付",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "93fbd3f0-df55-447b-967c-85559219f9dd",
+								"exec": [
+									"// 首先判断 status 是否成功\r",
+									"if(responseCode.code === 200){ \r",
+									"    //将返回数据解析成json格式\r",
+									"    var jsonData = JSON.parse(responseBody);\r",
+									"    //定义环境变量sign1用做后续使用\r",
+									"    var sign1 = jsonData.date;\r",
+									"    pm.environment.set(\"sign1\", jsonData.date);\r",
+									"    \r",
+									"    // 判断测试是否通过\r",
+									"    if(jsonData.date !== ''){\r",
+									"        tests[\"响应数据判断true\"] = true;\r",
+									"        \r",
+									"    }\r",
+									"    else{\r",
+									"        tests[\"响应数据判断false\"] = false;\r",
+									"    }\r",
+									"    \r",
+									"}else{\r",
+									"    //响应值不是200时的输出\r",
+									"    tests[responseCode.code] = true;\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "953f4de3-d1e4-42af-9c50-070c2e1d158f",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{LT5}}\",\n\t\"notifyUrl\":\"http://shiyujun.cn\",\n\t\"transAmt\":\"0.01\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"subject\":\"h5支付测试subject\",\n\t\"userId\":\"{{userid1}}\",\n\t\"userIp\":\"{{ip1}}\",\n\t\"body\":\"h5支付测试body\",\n\t\"storeId\":\"h5支付测试storeid\",\n\t\"cashierId\":\"h5支付测试cashierid\",\n\t\"returnUrl\":\"http://shiyujun.cn\",\n\t\"transCode\":\"wechat\",\n\t\"field1\":\"预留字段1\",\n\t\"field2\":\"预留字段2\",\n\t\"field3\":\"预留字段3\",\n\t\"privateKey\":\"{{siyao11}}\"\n}"
+						},
+						"url": "{{qianming}}"
+					},
+					"response": []
+				},
+				{
+					"name": "1.5  h5支付--验签",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "872e5cd1-d77e-4399-9884-a38716e657eb",
+								"exec": [
+									"// 设置前置变量，获取shanghuidpay11的商户号",
+									"var a1 = pm.environment.get(\"shanghuidpay11\"); ",
+									"",
+									"// 首先判断 status 是否成功",
+									"if(responseCode.code === 200){ ",
+									"    //将返回数据解析成json格式",
+									"    var jsonData = JSON.parse(responseBody);",
+									"    ",
+									"    // 判断测试是否通过",
+									"    if(jsonData.respCode == \"000000\" && jsonData.respMsg == \"成功\" && jsonData.merNo == a1 && jsonData.status == 1 && jsonData.payUrl != null && jsonData.sign != null){",
+									"        tests[\"响应数据判断true\"] = true;",
+									"    }",
+									"    else{",
+									"        tests[\"响应数据判断false\"] = false;",
+									"    }",
+									"    ",
+									"}else{",
+									"    tests[responseCode.code] = true;",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{LT5}}\",\n\t\"notifyUrl\":\"http://shiyujun.cn\",\n\t\"transAmt\":\"0.01\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"subject\":\"h5支付测试subject\",\n\t\"userId\":\"{{userid1}}\",\n\t\"userIp\":\"{{ip1}}\",\n\t\"body\":\"h5支付测试body\",\n\t\"storeId\":\"h5支付测试storeid\",\n\t\"cashierId\":\"h5支付测试cashierid\",\n\t\"returnUrl\":\"http://shiyujun.cn\",\n\t\"transCode\":\"wechat\",\n\t\"field1\":\"预留字段1\",\n\t\"field2\":\"预留字段2\",\n\t\"field3\":\"预留字段3\",\n\t\"sign\":\"{{sign1}}\"\n}"
+						},
+						"url": "{{yanqian}}h5Pay"
+					},
+					"response": []
+				},
+				{
+					"name": "1.6  APP支付",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "93fbd3f0-df55-447b-967c-85559219f9dd",
+								"exec": [
+									"// 首先判断 status 是否成功\r",
+									"if(responseCode.code === 200){ \r",
+									"    //将返回数据解析成json格式\r",
+									"    var jsonData = JSON.parse(responseBody);\r",
+									"    //定义环境变量sign1用做后续使用\r",
+									"    var sign1 = jsonData.date;\r",
+									"    pm.environment.set(\"sign1\", jsonData.date);\r",
+									"    \r",
+									"    // 判断测试是否通过\r",
+									"    if(jsonData.date !== ''){\r",
+									"        tests[\"响应数据判断true\"] = true;\r",
+									"        \r",
+									"    }\r",
+									"    else{\r",
+									"        tests[\"响应数据判断false\"] = false;\r",
+									"    }\r",
+									"    \r",
+									"}else{\r",
+									"    //响应值不是200时的输出\r",
+									"    tests[responseCode.code] = true;\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "953f4de3-d1e4-42af-9c50-070c2e1d158f",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{LT6}}\",\n\t\"notifyUrl\":\"http://shiyujun.cn\",\n\t\"transAmt\":\"0.01\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"subject\":\"APP支付测试subject\",\n\t\"userId\":\"{{userid1}}\",\n\t\"userIp\":\"{{ip1}}\",\n\t\"body\":\"APP支付测试body\",\n\t\"storeId\":\"APP支付测试storeid\",\n\t\"cashierId\":\"APP支付测试cashierid\",\n\t\"returnUrl\":\"http://shiyujun.cn\",\n\t\"transCode\":\"wechat\",\n\t\"field1\":\"{{appid1}}\",\n\t\"field2\":\"预留字段2\",\n\t\"field3\":\"预留字段3\",\n\t\"privateKey\":\"{{siyao11}}\"\n}"
+						},
+						"url": "{{qianming}}"
+					},
+					"response": []
+				},
+				{
+					"name": "1.6  APP支付--验签",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "872e5cd1-d77e-4399-9884-a38716e657eb",
+								"exec": [
+									"// 设置前置变量，获取shanghuidpay11的商户号",
+									"var a1 = pm.environment.get(\"shanghuidpay11\"); ",
+									"",
+									"// 首先判断 status 是否成功",
+									"if(responseCode.code === 200){ ",
+									"    //将返回数据解析成json格式",
+									"    var jsonData = JSON.parse(responseBody);",
+									"    ",
+									"    // 判断测试是否通过",
+									"    if(jsonData.respCode == \"000000\" && jsonData.respMsg == \"成功\" && jsonData.merNo == a1 && jsonData.status == 1 && jsonData.data != null && jsonData.sign != null){",
+									"        tests[\"响应数据判断true\"] = true;",
+									"    }",
+									"    else{",
+									"        tests[\"响应数据判断false\"] = false;",
+									"    }",
+									"    ",
+									"}else{",
+									"    tests[responseCode.code] = true;",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{LT6}}\",\n\t\"notifyUrl\":\"http://shiyujun.cn\",\n\t\"transAmt\":\"0.01\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"subject\":\"APP支付测试subject\",\n\t\"userId\":\"{{userid1}}\",\n\t\"userIp\":\"{{ip1}}\",\n\t\"body\":\"APP支付测试body\",\n\t\"storeId\":\"APP支付测试storeid\",\n\t\"cashierId\":\"APP支付测试cashierid\",\n\t\"returnUrl\":\"http://shiyujun.cn\",\n\t\"transCode\":\"wechat\",\n\t\"field1\":\"{{appid1}}\",\n\t\"field2\":\"预留字段2\",\n\t\"field3\":\"预留字段3\",\n\t\"sign\":\"{{sign1}}\"\n}"
+						},
+						"url": "{{yanqian}}appPay"
+					},
+					"response": []
+				},
+				{
+					"name": "1.7  企业付款到个人",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "93fbd3f0-df55-447b-967c-85559219f9dd",
+								"exec": [
+									"// 首先判断 status 是否成功\r",
+									"if(responseCode.code === 200){ \r",
+									"    //将返回数据解析成json格式\r",
+									"    var jsonData = JSON.parse(responseBody);\r",
+									"    //定义环境变量sign1用做后续使用\r",
+									"    var sign1 = jsonData.date;\r",
+									"    pm.environment.set(\"sign1\", jsonData.date);\r",
+									"    \r",
+									"    // 判断测试是否通过\r",
+									"    if(jsonData.date !== ''){\r",
+									"        tests[\"响应数据判断true\"] = true;\r",
+									"        \r",
+									"    }\r",
+									"    else{\r",
+									"        tests[\"响应数据判断false\"] = false;\r",
+									"    }\r",
+									"    \r",
+									"}else{\r",
+									"    //响应值不是200时的输出\r",
+									"    tests[responseCode.code] = true;\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "953f4de3-d1e4-42af-9c50-070c2e1d158f",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{LT7}}\",\n\t\"notifyUrl\":\"http://shiyujun.cn\",\n\t\"transAmt\":\"0.01\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"subject\":\"企业付款到个人测试subject\",\n\t\"userId\":\"{{userid1}}\",\n\t\"accountNo\":\"{{openidzfb}}\",\n\t\"storeId\":\"企业付款到个人测试storeid\",\n\t\"cashierId\":\"企业付款到个人测试cashierid\",\n\t\"transCode\":\"alipay\",\n\t\"field1\":\"预留字段1\",\n\t\"field2\":\"预留字段2\",\n\t\"field3\":\"预留字段3\",\n\t\"privateKey\":\"{{siyao11}}\"\n}"
+						},
+						"url": "{{qianming}}"
+					},
+					"response": []
+				},
+				{
+					"name": "1.7  企业付款到个人--验签",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "872e5cd1-d77e-4399-9884-a38716e657eb",
+								"exec": [
+									"// 设置前置变量，获取shanghuidpay11的商户号",
+									"var a1 = pm.environment.get(\"shanghuidpay11\"); ",
+									"",
+									"// 首先判断 status 是否成功",
+									"if(responseCode.code === 200){ ",
+									"    //将返回数据解析成json格式",
+									"    var jsonData = JSON.parse(responseBody);",
+									"    ",
+									"    // 判断测试是否通过",
+									"    if(jsonData.respCode == \"EXCEED_LIMIT_SM_MIN_AMOUNT\" && jsonData.respMsg == \"单笔最低转账金额0.1元\" && jsonData.merNo == a1 && jsonData.orderNo != null && jsonData.sign != null && jsonData.status == 2){",
+									"        tests[\"响应数据判断true\"] = true;",
+									"    }",
+									"    else{",
+									"        tests[\"响应数据判断false\"] = false;",
+									"    }",
+									"    ",
+									"}else{",
+									"    tests[responseCode.code] = true;",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{LT7}}\",\n\t\"notifyUrl\":\"http://shiyujun.cn\",\n\t\"transAmt\":\"0.01\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"subject\":\"企业付款到个人测试subject\",\n\t\"userId\":\"{{userid1}}\",\n\t\"accountNo\":\"{{openidzfb}}\",\n\t\"storeId\":\"企业付款到个人测试storeid\",\n\t\"cashierId\":\"企业付款到个人测试cashierid\",\n\t\"transCode\":\"alipay\",\n\t\"field1\":\"预留字段1\",\n\t\"field2\":\"预留字段2\",\n\t\"field3\":\"预留字段3\",\n\t\"sign\":\"{{sign1}}\"\n}"
+						},
+						"url": "{{yanqian}}paymentToUser"
+					},
+					"response": []
+				},
+				{
+					"name": "1.8  订单核销（无用户交易）",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "93fbd3f0-df55-447b-967c-85559219f9dd",
+								"exec": [
+									"// 首先判断 status 是否成功\r",
+									"if(responseCode.code === 200){ \r",
+									"    //将返回数据解析成json格式\r",
+									"    var jsonData = JSON.parse(responseBody);\r",
+									"    //定义环境变量sign1用做后续使用\r",
+									"    var sign1 = jsonData.date;\r",
+									"    pm.environment.set(\"sign1\", jsonData.date);\r",
+									"    \r",
+									"    // 判断测试是否通过\r",
+									"    if(jsonData.date !== ''){\r",
+									"        tests[\"响应数据判断true\"] = true;\r",
+									"        \r",
+									"    }\r",
+									"    else{\r",
+									"        tests[\"响应数据判断false\"] = false;\r",
+									"    }\r",
+									"    \r",
+									"}else{\r",
+									"    //响应值不是200时的输出\r",
+									"    tests[responseCode.code] = true;\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "953f4de3-d1e4-42af-9c50-070c2e1d158f",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{LT8}}\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"subject\":\"订单核销无用户交易subject\",\n\t\"body\":\"订单核销无用户交易body\",\n\t\"transSeqNo\":\"{{LT8}}\",\n\t\"marketingData\":\"[{'merNo':'{{shanghuidpay11}}','amount':'1'},{'merNo':'{{shanghuidqr21}}','amount':'0.5'}]\",\n\t\"storeId\":\"订单核销无用户交易storeid\",\n\t\"cashierId\":\"订单核销无用户交易cashierid\",\n\t\"field1\":\"预留字段1\",\n\t\"field2\":\"预留字段2\",\n\t\"field3\":\"预留字段3\",\n\t\"privateKey\":\"{{siyao11}}\"\n}"
+						},
+						"url": "{{qianming}}"
+					},
+					"response": []
+				},
+				{
+					"name": "1.8  订单核销（无用户交易）--验签",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "872e5cd1-d77e-4399-9884-a38716e657eb",
+								"exec": [
+									"// 设置前置变量，获取shanghuidpay11的商户号",
+									"var a1 = pm.environment.get(\"shanghuidpay11\"); ",
+									"",
+									"// 首先判断 status 是否成功",
+									"if(responseCode.code === 200){ ",
+									"    //将返回数据解析成json格式",
+									"    var jsonData = JSON.parse(responseBody);",
+									"    ",
+									"    // 判断测试是否通过",
+									"    if(jsonData.respCode == \"000000\" && jsonData.respMsg == \"成功\" && jsonData.status == 1 && jsonData.orderNo != null && jsonData.jmOrderNo != null && jsonData.merNo == a1 && jsonData.sign != null){",
+									"        tests[\"响应数据判断true\"] = true;",
+									"    }",
+									"    else{",
+									"        tests[\"响应数据判断false\"] = false;",
+									"    }",
+									"    ",
+									"}else{",
+									"    tests[responseCode.code] = true;",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{LT8}}\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"subject\":\"订单核销无用户交易subject\",\n\t\"body\":\"订单核销无用户交易body\",\n\t\"transSeqNo\":\"{{LT8}}\",\n\t\"marketingData\":\"[{'merNo':'{{shanghuidpay11}}','amount':'1'},{'merNo':'{{shanghuidqr21}}','amount':'0.5'}]\",\n\t\"storeId\":\"订单核销无用户交易storeid\",\n\t\"cashierId\":\"订单核销无用户交易cashierid\",\n\t\"field1\":\"预留字段1\",\n\t\"field2\":\"预留字段2\",\n\t\"field3\":\"预留字段3\",\n\t\"sign\":\"{{sign1}}\"\n}"
+						},
+						"url": "{{yanqian}}marketPay"
+					},
+					"response": []
+				},
+				{
+					"name": "1.9  提现申请",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "93fbd3f0-df55-447b-967c-85559219f9dd",
+								"exec": [
+									"// 首先判断 status 是否成功\r",
+									"if(responseCode.code === 200){ \r",
+									"    //将返回数据解析成json格式\r",
+									"    var jsonData = JSON.parse(responseBody);\r",
+									"    //定义环境变量sign1用做后续使用\r",
+									"    var sign1 = jsonData.date;\r",
+									"    pm.environment.set(\"sign1\", jsonData.date);\r",
+									"    \r",
+									"    // 判断测试是否通过\r",
+									"    if(jsonData.date !== ''){\r",
+									"        tests[\"响应数据判断true\"] = true;\r",
+									"        \r",
+									"    }\r",
+									"    else{\r",
+									"        tests[\"响应数据判断false\"] = false;\r",
+									"    }\r",
+									"    \r",
+									"}else{\r",
+									"    //响应值不是200时的输出\r",
+									"    tests[responseCode.code] = true;\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "953f4de3-d1e4-42af-9c50-070c2e1d158f",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{LT9}}\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"transAmt\":\"0.01\",\n\t\"remark\":\"新颜提现申请remark\",\n\t\"notifyUrl\":\"http://shiyujun.cn\",\n\t\"privateKey\":\"{{siyao11}}\"\n}"
+						},
+						"url": "{{qianming}}"
+					},
+					"response": []
+				},
+				{
+					"name": "1.9  提现申请--验签",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "872e5cd1-d77e-4399-9884-a38716e657eb",
+								"exec": [
+									"// 设置前置变量，获取shanghuidpay11的商户号",
+									"var a1 = pm.environment.get(\"shanghuidpay11\"); ",
+									"",
+									"// 首先判断 status 是否成功",
+									"if(responseCode.code === 200){ ",
+									"    //将返回数据解析成json格式",
+									"    var jsonData = JSON.parse(responseBody);",
+									"    ",
+									"    // 判断测试是否通过",
+									"    if(jsonData.respCode == \"3094\" && jsonData.respMsg == \"商户信息不存在\"){",
+									"        tests[\"响应数据判断true\"] = true;",
+									"    }",
+									"    else{",
+									"        tests[\"响应数据判断false\"] = false;",
+									"    }",
+									"    ",
+									"}else{",
+									"    tests[responseCode.code] = true;",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{LT9}}\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"transAmt\":\"0.01\",\n\t\"remark\":\"新颜提现申请remark\",\n\t\"notifyUrl\":\"http://shiyujun.cn\",\n\t\"sign\":\"{{sign1}}\"\n}"
+						},
+						"url": "{{yanqian}}settlement"
+					},
+					"response": []
+				},
+				{
+					"name": "1.11  B2B收款",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "93fbd3f0-df55-447b-967c-85559219f9dd",
+								"exec": [
+									"// 首先判断 status 是否成功\r",
+									"if(responseCode.code === 200){ \r",
+									"    //将返回数据解析成json格式\r",
+									"    var jsonData = JSON.parse(responseBody);\r",
+									"    //定义环境变量sign1用做后续使用\r",
+									"    var sign1 = jsonData.date;\r",
+									"    pm.environment.set(\"sign1\", jsonData.date);\r",
+									"    \r",
+									"    // 判断测试是否通过\r",
+									"    if(jsonData.date !== ''){\r",
+									"        tests[\"响应数据判断true\"] = true;\r",
+									"        \r",
+									"    }\r",
+									"    else{\r",
+									"        tests[\"响应数据判断false\"] = false;\r",
+									"    }\r",
+									"    \r",
+									"}else{\r",
+									"    //响应值不是200时的输出\r",
+									"    tests[responseCode.code] = true;\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "953f4de3-d1e4-42af-9c50-070c2e1d158f",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{LT11}}\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"notifyUrl\":\"http://shiyujun.cn\",\n\t\"returnUrl\":\"http://shiyujun.cn\",\n\t\"transAmt\":\"0.01\",\n\t\"subject\":\"B2B收款测试subject\",\n\t\"body\":\"B2B收款测试body\",\n\t\"bankCode\":\"ICBC\",\n\t\"field1\":\"\",\n\t\"field2\":\"\",\n\t\"field3\":\"\",\n\t\"privateKey\":\"{{siyao11}}\"\n}"
+						},
+						"url": "{{qianming}}"
+					},
+					"response": []
+				},
+				{
+					"name": "1.11  B2B收款--验签",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "872e5cd1-d77e-4399-9884-a38716e657eb",
+								"exec": [
+									"// 设置前置变量，获取shanghuidpay11的商户号",
+									"var a1 = pm.environment.get(\"shanghuidpay11\"); ",
+									"",
+									"// 首先判断 status 是否成功",
+									"if(responseCode.code === 200){ ",
+									"    //将返回数据解析成json格式",
+									"    var jsonData = JSON.parse(responseBody);",
+									"    ",
+									"    // 判断测试是否通过",
+									"    if(jsonData.respCode == \"000000\" && jsonData.respMsg == \"成功\" && jsonData.merNo == a1 && jsonData.status ==1 && jsonData.payUrl != null && jsonData.sign != null){",
+									"        tests[\"响应数据判断true\"] = true;",
+									"    }",
+									"    else{",
+									"        tests[\"响应数据判断false\"] = false;",
+									"    }",
+									"    ",
+									"}else{",
+									"    tests[responseCode.code] = true;",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{LT11}}\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"notifyUrl\":\"http://shiyujun.cn\",\n\t\"returnUrl\":\"http://shiyujun.cn\",\n\t\"transAmt\":\"0.01\",\n\t\"subject\":\"B2B收款测试subject\",\n\t\"body\":\"B2B收款测试body\",\n\t\"bankCode\":\"ICBC\",\n\t\"field1\":\"\",\n\t\"field2\":\"\",\n\t\"field3\":\"\",\n\t\"sign\":\"{{sign1}}\"\n}"
+						},
+						"url": "{{yanqian}}b2bPay"
+					},
+					"response": []
+				},
+				{
+					"name": "1.12  核销款充值",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "93fbd3f0-df55-447b-967c-85559219f9dd",
+								"exec": [
+									"// 首先判断 status 是否成功\r",
+									"if(responseCode.code === 200){ \r",
+									"    //将返回数据解析成json格式\r",
+									"    var jsonData = JSON.parse(responseBody);\r",
+									"    //定义环境变量sign1用做后续使用\r",
+									"    var sign1 = jsonData.date;\r",
+									"    pm.environment.set(\"sign1\", jsonData.date);\r",
+									"    \r",
+									"    // 判断测试是否通过\r",
+									"    if(jsonData.date !== ''){\r",
+									"        tests[\"响应数据判断true\"] = true;\r",
+									"        \r",
+									"    }\r",
+									"    else{\r",
+									"        tests[\"响应数据判断false\"] = false;\r",
+									"    }\r",
+									"    \r",
+									"}else{\r",
+									"    //响应值不是200时的输出\r",
+									"    tests[responseCode.code] = true;\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "953f4de3-d1e4-42af-9c50-070c2e1d158f",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{LT12}}\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"notifyUrl\":\"http://shiyujun.cn\",\n\t\"returnUrl\":\"http://shiyujun.cn\",\n\t\"transAmt\":\"0.01\",\n\t\"subject\":\"核销款充值测试subject\",\n\t\"body\":\"核销款充值body\",\n\t\"bankCode\":\"ICBC\",\n\t\"field1\":\"\",\n\t\"field2\":\"\",\n\t\"field3\":\"\",\n\t\"privateKey\":\"{{siyao11}}\"\n}"
+						},
+						"url": "{{qianming}}"
+					},
+					"response": []
+				},
+				{
+					"name": "1.12  核销款充值--验签",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "872e5cd1-d77e-4399-9884-a38716e657eb",
+								"exec": [
+									"// 设置前置变量，获取shanghuidpay11的商户号",
+									"var a1 = pm.environment.get(\"shanghuidpay11\"); ",
+									"",
+									"// 首先判断 status 是否成功",
+									"if(responseCode.code === 200){ ",
+									"    //将返回数据解析成json格式",
+									"    var jsonData = JSON.parse(responseBody);",
+									"    ",
+									"    // 判断测试是否通过",
+									"    if(jsonData.respCode == \"000000\" && jsonData.respMsg == \"成功\" && jsonData.merNo == a1 && jsonData.status ==1 && jsonData.payUrl != null && jsonData.sign != null){",
+									"        tests[\"响应数据判断true\"] = true;",
+									"    }",
+									"    else{",
+									"        tests[\"响应数据判断false\"] = false;",
+									"    }",
+									"    ",
+									"}else{",
+									"    tests[responseCode.code] = true;",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{LT12}}\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"notifyUrl\":\"http://shiyujun.cn\",\n\t\"returnUrl\":\"http://shiyujun.cn\",\n\t\"transAmt\":\"0.01\",\n\t\"subject\":\"核销款充值测试subject\",\n\t\"body\":\"核销款充值body\",\n\t\"bankCode\":\"ICBC\",\n\t\"field1\":\"\",\n\t\"field2\":\"\",\n\t\"field3\":\"\",\n\t\"sign\":\"{{sign1}}\"\n}"
+						},
+						"url": "{{yanqian}}clearanceRecharge"
+					},
+					"response": []
+				},
+				{
+					"name": "1.13  账户查询",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "93fbd3f0-df55-447b-967c-85559219f9dd",
+								"exec": [
+									"// 首先判断 status 是否成功\r",
+									"if(responseCode.code === 200){ \r",
+									"    //将返回数据解析成json格式\r",
+									"    var jsonData = JSON.parse(responseBody);\r",
+									"    //定义环境变量sign1用做后续使用\r",
+									"    var sign1 = jsonData.date;\r",
+									"    pm.environment.set(\"sign1\", jsonData.date);\r",
+									"    \r",
+									"    // 判断测试是否通过\r",
+									"    if(jsonData.date !== ''){\r",
+									"        tests[\"响应数据判断true\"] = true;\r",
+									"        \r",
+									"    }\r",
+									"    else{\r",
+									"        tests[\"响应数据判断false\"] = false;\r",
+									"    }\r",
+									"    \r",
+									"}else{\r",
+									"    //响应值不是200时的输出\r",
+									"    tests[responseCode.code] = true;\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "953f4de3-d1e4-42af-9c50-070c2e1d158f",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"privateKey\":\"{{siyao11}}\"\n}"
+						},
+						"url": "{{qianming}}"
+					},
+					"response": []
+				},
+				{
+					"name": "1.13  账户查询--验签",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "872e5cd1-d77e-4399-9884-a38716e657eb",
+								"exec": [
+									"// 设置前置变量，获取shanghuidpay11的商户号",
+									"var a1 = pm.environment.get(\"shanghuidpay11\"); ",
+									"",
+									"// 首先判断 status 是否成功",
+									"if(responseCode.code === 200){ ",
+									"    //将返回数据解析成json格式",
+									"    var jsonData = JSON.parse(responseBody);",
+									"    ",
+									"    // 判断测试是否通过",
+									"    if(jsonData.respCode == \"3094\" && jsonData.respMsg == \"商户信息不存在\"){",
+									"        tests[\"响应数据判断true\"] = true;",
+									"    }",
+									"    else{",
+									"        tests[\"响应数据判断false\"] = false;",
+									"    }",
+									"    ",
+									"}else{",
+									"    tests[responseCode.code] = true;",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"sign\":\"{{sign1}}\"\n}"
+						},
+						"url": "{{yanqian}}accountQuery"
+					},
+					"response": []
+				},
+				{
+					"name": "1.14  资金划拨",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "93fbd3f0-df55-447b-967c-85559219f9dd",
+								"exec": [
+									"// 首先判断 status 是否成功\r",
+									"if(responseCode.code === 200){ \r",
+									"    //将返回数据解析成json格式\r",
+									"    var jsonData = JSON.parse(responseBody);\r",
+									"    //定义环境变量sign1用做后续使用\r",
+									"    var sign1 = jsonData.date;\r",
+									"    pm.environment.set(\"sign1\", jsonData.date);\r",
+									"    \r",
+									"    // 判断测试是否通过\r",
+									"    if(jsonData.date !== ''){\r",
+									"        tests[\"响应数据判断true\"] = true;\r",
+									"        \r",
+									"    }\r",
+									"    else{\r",
+									"        tests[\"响应数据判断false\"] = false;\r",
+									"    }\r",
+									"    \r",
+									"}else{\r",
+									"    //响应值不是200时的输出\r",
+									"    tests[responseCode.code] = true;\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "953f4de3-d1e4-42af-9c50-070c2e1d158f",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{LT14}}\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"transAmt\":\"0.01\",\n\t\"accNo\":\"{{shanghuidpay11}}\",\n\t\"privateKey\":\"{{siyao11}}\"\n}"
+						},
+						"url": "{{qianming}}"
+					},
+					"response": []
+				},
+				{
+					"name": "1.14  资金划拨--验签",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "872e5cd1-d77e-4399-9884-a38716e657eb",
+								"exec": [
+									"// 设置前置变量，获取shanghuidpay11的商户号",
+									"var a1 = pm.environment.get(\"shanghuidpay11\"); ",
+									"",
+									"// 首先判断 status 是否成功",
+									"if(responseCode.code === 200){ ",
+									"    //将返回数据解析成json格式",
+									"    var jsonData = JSON.parse(responseBody);",
+									"    ",
+									"    // 判断测试是否通过",
+									"    if(jsonData.respCode == \"3094\" && jsonData.respMsg == \"商户信息不存在\"){",
+									"        tests[\"响应数据判断true\"] = true;",
+									"    }",
+									"    else{",
+									"        tests[\"响应数据判断false\"] = false;",
+									"    }",
+									"    ",
+									"}else{",
+									"    tests[responseCode.code] = true;",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{LT14}}\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"transAmt\":\"0.01\",\n\t\"accNo\":\"{{shanghuidpay11}}\",\n\t\"sign\":\"{{sign1}}\"\n}"
+						},
+						"url": "{{yanqian}}fundsTransfer"
+					},
+					"response": []
+				},
+				{
+					"name": "1.15  对账查询",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "93fbd3f0-df55-447b-967c-85559219f9dd",
+								"exec": [
+									"// 首先判断 status 是否成功\r",
+									"if(responseCode.code === 200){ \r",
+									"    //将返回数据解析成json格式\r",
+									"    var jsonData = JSON.parse(responseBody);\r",
+									"    //定义环境变量sign1用做后续使用\r",
+									"    var sign1 = jsonData.date;\r",
+									"    pm.environment.set(\"sign1\", jsonData.date);\r",
+									"    \r",
+									"    // 判断测试是否通过\r",
+									"    if(jsonData.date !== ''){\r",
+									"        tests[\"响应数据判断true\"] = true;\r",
+									"        \r",
+									"    }\r",
+									"    else{\r",
+									"        tests[\"响应数据判断false\"] = false;\r",
+									"    }\r",
+									"    \r",
+									"}else{\r",
+									"    //响应值不是200时的输出\r",
+									"    tests[responseCode.code] = true;\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "953f4de3-d1e4-42af-9c50-070c2e1d158f",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"acctDate\":\"20190806\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"privateKey\":\"{{siyao11}}\"\n}"
+						},
+						"url": "{{qianming}}"
+					},
+					"response": []
+				},
+				{
+					"name": "1.15  对账查询--验签",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "872e5cd1-d77e-4399-9884-a38716e657eb",
+								"exec": [
+									"// 设置前置变量，获取shanghuidpay11的商户号\r",
+									"var a1 = pm.environment.get(\"shanghuidpay11\"); \r",
+									"\r",
+									"// 首先判断 status 是否成功\r",
+									"if(responseCode.code === 200){ \r",
+									"    //将返回数据解析成json格式\r",
+									"    var jsonData = JSON.parse(responseBody);\r",
+									"    \r",
+									"    // 判断测试是否通过\r",
+									"    if(jsonData.respCode == \"000000\" && jsonData.respMsg == \"成功\" && jsonData.merNo == a1 && !jsonData.totalUrl && jsonData.acctDate != null && jsonData.sign != null && jsonData.status == 1){\r",
+									"        tests[\"响应数据判断true\"] = true;\r",
+									"    }\r",
+									"    else{\r",
+									"        tests[\"响应数据判断false\"] = false;\r",
+									"    }\r",
+									"    \r",
+									"}else{\r",
+									"    tests[responseCode.code] = true;\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"acctDate\":\"20190806\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"sign\":\"{{sign1}}\"\n}"
+						},
+						"url": "{{yanqian}}downloadbill"
+					},
+					"response": []
+				},
+				{
+					"name": "1.16  退款",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "93fbd3f0-df55-447b-967c-85559219f9dd",
+								"exec": [
+									"// 首先判断 status 是否成功\r",
+									"if(responseCode.code === 200){ \r",
+									"    //将返回数据解析成json格式\r",
+									"    var jsonData = JSON.parse(responseBody);\r",
+									"    //定义环境变量sign1用做后续使用\r",
+									"    var sign1 = jsonData.date;\r",
+									"    pm.environment.set(\"sign1\", jsonData.date);\r",
+									"    \r",
+									"    // 判断测试是否通过\r",
+									"    if(jsonData.date !== ''){\r",
+									"        tests[\"响应数据判断true\"] = true;\r",
+									"        \r",
+									"    }\r",
+									"    else{\r",
+									"        tests[\"响应数据判断false\"] = false;\r",
+									"    }\r",
+									"    \r",
+									"}else{\r",
+									"    //响应值不是200时的输出\r",
+									"    tests[responseCode.code] = true;\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "953f4de3-d1e4-42af-9c50-070c2e1d158f",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"refundNo\":\"{{LT16}}\",\n\t\"orderNo\":\"{{LT5}}\",\n\t\"jmOrderNo\":\"\",\n\t\"transAmt\":\"0.01\",\n\t\"reason\":\"退款原因测试reason\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"privateKey\":\"{{siyao11}}\"\n}"
+						},
+						"url": "{{qianming}}"
+					},
+					"response": []
+				},
+				{
+					"name": "1.16  退款--验签",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "872e5cd1-d77e-4399-9884-a38716e657eb",
+								"exec": [
+									"// 设置前置变量，获取shanghuidpay11的商户号",
+									"var a1 = pm.environment.get(\"shanghuidpay11\"); ",
+									"",
+									"// 首先判断 status 是否成功",
+									"if(responseCode.code === 200){ ",
+									"    //将返回数据解析成json格式",
+									"    var jsonData = JSON.parse(responseBody);",
+									"    ",
+									"    // 判断测试是否通过",
+									"    if(jsonData.respCode == \"300036\" && jsonData.respMsg == \"业务处理异常，退款原订单未支付成功\"){",
+									"        tests[\"响应数据判断true\"] = true;",
+									"    }",
+									"    else{",
+									"        tests[\"响应数据判断false\"] = false;",
+									"    }",
+									"    ",
+									"}else{",
+									"    tests[responseCode.code] = true;",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"refundNo\":\"{{LT16}}\",\n\t\"orderNo\":\"{{LT5}}\",\n\t\"jmOrderNo\":\"\",\n\t\"transAmt\":\"0.01\",\n\t\"reason\":\"退款原因测试reason\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"sign\":\"{{sign1}}\"\n}"
+						},
+						"url": "{{yanqian}}refund"
+					},
+					"response": []
+				},
+				{
+					"name": "1.17  交易查询",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "93fbd3f0-df55-447b-967c-85559219f9dd",
+								"exec": [
+									"// 首先判断 status 是否成功\r",
+									"if(responseCode.code === 200){ \r",
+									"    //将返回数据解析成json格式\r",
+									"    var jsonData = JSON.parse(responseBody);\r",
+									"    //定义环境变量sign1用做后续使用\r",
+									"    var sign1 = jsonData.date;\r",
+									"    pm.environment.set(\"sign1\", jsonData.date);\r",
+									"    \r",
+									"    // 判断测试是否通过\r",
+									"    if(jsonData.date !== ''){\r",
+									"        tests[\"响应数据判断true\"] = true;\r",
+									"        \r",
+									"    }\r",
+									"    else{\r",
+									"        tests[\"响应数据判断false\"] = false;\r",
+									"    }\r",
+									"    \r",
+									"}else{\r",
+									"    //响应值不是200时的输出\r",
+									"    tests[responseCode.code] = true;\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "953f4de3-d1e4-42af-9c50-070c2e1d158f",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{LT5}}\",\n\t\"jmOrderNo\":\"\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"privateKey\":\"{{siyao11}}\"\n}"
+						},
+						"url": "{{qianming}}"
+					},
+					"response": []
+				},
+				{
+					"name": "1.17  交易查询--验签",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "872e5cd1-d77e-4399-9884-a38716e657eb",
+								"exec": [
+									"// 设置前置变量，获取shanghuidpay11的商户号",
+									"var a1 = pm.environment.get(\"shanghuidpay11\"); ",
+									"",
+									"// 首先判断 status 是否成功",
+									"if(responseCode.code === 200){ ",
+									"    //将返回数据解析成json格式",
+									"    var jsonData = JSON.parse(responseBody);",
+									"    ",
+									"    // 判断测试是否通过",
+									"    if(jsonData.respCode == \"000000\" && jsonData.respMsg == \"成功\" && jsonData.orderNo != null && jsonData.merNo == a1 && jsonData.jmOrderNo != null && jsonData.transAmt == '0.01' && jsonData.currency == 'CNY' && jsonData.status == 2 && jsonData.type == 9 && !jsonData.dealTime && jsonData.channel == 'wechat_h5' && jsonData.sign != null){",
+									"        tests[\"响应数据判断true\"] = true;",
+									"    }",
+									"    else{",
+									"        tests[\"响应数据判断false\"] = false;",
+									"    }",
+									"    ",
+									"}else{",
+									"    tests[responseCode.code] = true;",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{LT5}}\",\n\t\"jmOrderNo\":\"\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"sign\":\"{{sign1}}\"\n}"
+						},
+						"url": "{{yanqian}}querySingleOrder"
+					},
+					"response": []
+				},
+				{
+					"name": "1.18  微信免密解约",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "93fbd3f0-df55-447b-967c-85559219f9dd",
+								"exec": [
+									"// 首先判断 status 是否成功\r",
+									"if(responseCode.code === 200){ \r",
+									"    //将返回数据解析成json格式\r",
+									"    var jsonData = JSON.parse(responseBody);\r",
+									"    //定义环境变量sign1用做后续使用\r",
+									"    var sign1 = jsonData.date;\r",
+									"    pm.environment.set(\"sign1\", jsonData.date);\r",
+									"    \r",
+									"    // 判断测试是否通过\r",
+									"    if(jsonData.date !== ''){\r",
+									"        tests[\"响应数据判断true\"] = true;\r",
+									"        \r",
+									"    }\r",
+									"    else{\r",
+									"        tests[\"响应数据判断false\"] = false;\r",
+									"    }\r",
+									"    \r",
+									"}else{\r",
+									"    //响应值不是200时的输出\r",
+									"    tests[responseCode.code] = true;\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "953f4de3-d1e4-42af-9c50-070c2e1d158f",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"signWayCode\":\"wechat\",\n\t\"userId\":\"{{userid1}}\",\n\t\"field1\":\"预留字段1\",\n\t\"field2\":\"预留字段2\",\n\t\"field3\":\"预留字段3\",\n\t\"privateKey\":\"{{siyao11}}\"\n}"
+						},
+						"url": "{{qianming}}"
+					},
+					"response": []
+				},
+				{
+					"name": "1.18  微信免密解约--验签",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "872e5cd1-d77e-4399-9884-a38716e657eb",
+								"exec": [
+									"// 设置前置变量，获取shanghuidpay11的商户号",
+									"var a1 = pm.environment.get(\"shanghuidpay11\"); ",
+									"",
+									"// 首先判断 status 是否成功",
+									"if(responseCode.code === 200){ ",
+									"    //将返回数据解析成json格式",
+									"    var jsonData = JSON.parse(responseBody);",
+									"    ",
+									"    // 判断测试是否通过",
+									"    if(jsonData.respCode == \"300392\" && jsonData.respMsg == \"此用户未签约该渠道，无需解约\" && jsonData.merNo == a1 && jsonData.status == 1 && jsonData.sign != null){",
+									"        tests[\"响应数据判断true\"] = true;",
+									"    }",
+									"    else{",
+									"        tests[\"响应数据判断false\"] = false;",
+									"    }",
+									"    ",
+									"}else{",
+									"    tests[responseCode.code] = true;",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"signWayCode\":\"wechat\",\n\t\"userId\":\"{{userid1}}\",\n\t\"field1\":\"预留字段1\",\n\t\"field2\":\"预留字段2\",\n\t\"field3\":\"预留字段3\",\n\t\"sign\":\"{{sign1}}\"\n}"
+						},
+						"url": "{{yanqian}}unSign"
 					},
 					"response": []
 				}
