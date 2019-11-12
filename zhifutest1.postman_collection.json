@@ -268,7 +268,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{LT1}}\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"notifyUrl\":\"http://shiyujun.cn\",\n\t\"returnUrl\":\"http://shiyujun.cn\",\n\t\"registerWayCode\":\"wechat\",\n\t\"userId\":\"{{userid1}}\",\n\t\"planId\":\"{{planid1}}\",\n\t\"accountName\":\"{{userid1}}\",\n\t\"appType\":\"ios\",\n\t\"scene\":\"app\",\n\t\"clientIp\":\"{{ip1}}\",\n\t\"appId\":\"{{appid1}}\",\n\t\"field1\":\"预留字段1\",\n\t\"field2\":\"预留字段2\",\n\t\"field3\":\"预留字段3\",\n\t\"privateKey\":\"{{siyao11}}\"\n}"
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{now9}}1\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"notifyUrl\":\"http://shiyujun.cn\",\n\t\"returnUrl\":\"http://shiyujun.cn\",\n\t\"registerWayCode\":\"wechat\",\n\t\"userId\":\"{{userid1}}\",\n\t\"planId\":\"{{planid1}}\",\n\t\"accountName\":\"{{userid1}}\",\n\t\"appType\":\"ios\",\n\t\"scene\":\"app\",\n\t\"clientIp\":\"{{ip1}}\",\n\t\"appId\":\"{{appid1}}\",\n\t\"field1\":\"预留字段1\",\n\t\"field2\":\"预留字段2\",\n\t\"field3\":\"预留字段3\",\n\t\"privateKey\":\"{{siyao11}}\"\n}"
 						},
 						"url": "{{qianming}}"
 					},
