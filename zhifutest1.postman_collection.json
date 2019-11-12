@@ -210,6 +210,124 @@
 			"protocolProfileBehavior": {}
 		},
 		{
+			"name": "1）接口连通性验证",
+			"item": [
+				{
+					"name": "1.1  微信免密签约 Copy",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "93fbd3f0-df55-447b-967c-85559219f9dd",
+								"exec": [
+									"// 首先判断 status 是否成功\r",
+									"if(responseCode.code === 200){ \r",
+									"    //将返回数据解析成json格式\r",
+									"    var jsonData = JSON.parse(responseBody);\r",
+									"    //定义环境变量sign1用做后续使用\r",
+									"    var sign1 = jsonData.date;\r",
+									"    pm.environment.set(\"sign1\", jsonData.date);\r",
+									"    \r",
+									"    // 判断测试是否通过\r",
+									"    if(jsonData.date !== ''){\r",
+									"        tests[\"响应数据判断true\"] = true;\r",
+									"        \r",
+									"    }\r",
+									"    else{\r",
+									"        tests[\"响应数据判断false\"] = false;\r",
+									"    }\r",
+									"    \r",
+									"}else{\r",
+									"    //响应值不是200时的输出\r",
+									"    tests[responseCode.code] = true;\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "953f4de3-d1e4-42af-9c50-070c2e1d158f",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{LT1}}\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"notifyUrl\":\"http://shiyujun.cn\",\n\t\"returnUrl\":\"http://shiyujun.cn\",\n\t\"registerWayCode\":\"wechat\",\n\t\"userId\":\"{{userid1}}\",\n\t\"planId\":\"{{planid1}}\",\n\t\"accountName\":\"{{userid1}}\",\n\t\"appType\":\"ios\",\n\t\"scene\":\"app\",\n\t\"clientIp\":\"{{ip1}}\",\n\t\"appId\":\"{{appid1}}\",\n\t\"field1\":\"预留字段1\",\n\t\"field2\":\"预留字段2\",\n\t\"field3\":\"预留字段3\",\n\t\"privateKey\":\"{{siyao11}}\"\n}"
+						},
+						"url": "{{qianming}}"
+					},
+					"response": []
+				},
+				{
+					"name": "1.1  微信免密签约--验签 Copy",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "872e5cd1-d77e-4399-9884-a38716e657eb",
+								"exec": [
+									"// 设置前置变量，获取shanghuidpay11的商户号\r",
+									"var a1 = pm.environment.get(\"shanghuidpay11\"); \r",
+									"\r",
+									"// 首先判断 status 是否成功\r",
+									"if(responseCode.code === 200){ \r",
+									"    //将返回数据解析成json格式\r",
+									"    var jsonData = JSON.parse(responseBody);\r",
+									"    \r",
+									"    // 判断测试是否通过\r",
+									"    if(jsonData.respCode == \"000000\" && jsonData.respMsg == \"成功\" && jsonData.merNo == a1 && jsonData.registerUrl != null && jsonData.status == 1 && jsonData.sign != null){\r",
+									"        tests[\"响应数据判断true\"] = true;\r",
+									"    }\r",
+									"    else{\r",
+									"        tests[\"响应数据判断false\"] = false;\r",
+									"    }\r",
+									"    \r",
+									"}else{\r",
+									"    tests[responseCode.code] = true;\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"version\":\"v1.0.0\",\n\t\"merNo\":\"{{shanghuidpay11}}\",\n\t\"signType\":\"RSA\",\n\t\"orderNo\":\"{{now9}}1\",\n\t\"dateTime\":\"{{now9}}\",\n\t\"notifyUrl\":\"http://shiyujun.cn\",\n\t\"returnUrl\":\"http://shiyujun.cn\",\n\t\"registerWayCode\":\"wechat\",\n\t\"userId\":\"{{userid1}}\",\n\t\"planId\":\"{{planid1}}\",\n\t\"accountName\":\"{{userid1}}\",\n\t\"appType\":\"ios\",\n\t\"scene\":\"app\",\n\t\"clientIp\":\"{{ip1}}\",\n\t\"appId\":\"{{appid1}}\",\n\t\"field1\":\"预留字段1\",\n\t\"field2\":\"预留字段2\",\n\t\"field3\":\"预留字段3\",\n\t\"sign\":\"{{sign1}}\"\n}"
+						},
+						"url": "{{yanqian}}contract"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
 			"name": "00）清除环境变量 Copy",
 			"item": [
 				{
